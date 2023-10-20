@@ -1,0 +1,55 @@
+.content-wrapper {
+    margin: 0 30px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+label {
+    color: #45464b;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    margin: 5px 0;
+}
+
+.icon {
+    margin-right: 5px;
+}
+
+input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.submit-btn {
+    background-color: #f7d456;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    padding: 10px 20px;
+    margin: 5px 0 10px 0;
+}
+
+.submit-btn:hover {
+    cursor: pointer;
+    background-color: #fbc916;
+}
+
+.message-warning {
+    color: red;
+    margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+    .content-wrapper {
+        margin: 0 20px;
+    }
+
+    .submit-btn {
+        font-size: 0.8rem;
+    }
+}
