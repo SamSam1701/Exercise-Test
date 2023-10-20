@@ -8,7 +8,7 @@ pnpm-debug.log*
 lerna-debug.log*
 
 # Dependency directories
-node_modules/
+node_modules/git remote add origin https://github.com/SamSam1701/Exercise-Test.git
 
 node_modules
 dist
